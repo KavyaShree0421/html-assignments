@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <center><h1>Registration Form</h1></center>
+        <center>
+       <label for="userid">User Id &nbsp&nbsp:</label>
+       <input type ="text" id ="userid" name ="userid" required minlength="5" maxlength="12"><br><br>
+       <label for="password">Password: </label>
+       <input type="password"  id="password" name="password" required minlength="7" maxlength="12"><br><br>
+       <label for="name">Name &nbsp&nbsp&nbsp&nbsp&nbsp: </label>
+       <input type="text" id="name" name="name" pattern="[A-Za-z]{1,}"><br><br>
+       <label for="address">Address &nbsp&nbsp: </label>
+       <input type="text" id="address" name="address"><br><br>
+       <label for="country">Country &nbsp&nbsp: &nbsp</label>
+       <select name="dropdown">
+        <option value="africa">Africa</option>
+        <option value="india">India</option>
+        <option value="usa">USA</option>
+       </select><br><br>
+       <label for="ZIPcode">ZIP Code &nbsp: </label>
+       <input type="text" id="ZIPcode" name="ZIPcode" pattern="[0-9]{6,6}"><br><br>
+       <label for="email">Email&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: </label>
+       <input type="text" id="email" name="email" pattern="[A-Za-z0-9_%.+-]+@[A-Za-z0-9]+\.+[A-Za-z{2,}]"><br><br>
+       <label for="sex">Sex&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: </label>
+       <input type="radio" name="sex" id="sex" value="Male">Male
+       <input type="radio" name="sex" id="sex" value="Female">Female<br><br>
+       <label for="language">Language&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: </label>
+       <input type="checkbox" name="language" id="language" value="english" checked >English
+        <input type="checkbox" name="language" id="language" value="Non-English">Non-English<br><br>
+<label for="about">About&nbsp&nbsp&nbsp: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </label><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<text-align="right"></text-align><textarea rows="5" cols="50" name="about" id="about"></textarea><br><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    </center>
+    </form> 
+   <center><input type="submit"></center>
+</body>
+</html>
